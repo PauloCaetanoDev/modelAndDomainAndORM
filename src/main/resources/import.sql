@@ -1,0 +1,1 @@
+INSERT INTO tb_category (descricao) VALUES ('Curso');
