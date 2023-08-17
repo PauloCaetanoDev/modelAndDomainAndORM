@@ -85,6 +85,23 @@ public class Atividade {
 	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
+
+	public Set<Participante> getParticipantes() {
+		return participantes;
+	}
+
+	public List<Bloco> getBlocos() {
+		return blocos;
+	}
+
+	public Category getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Category categoria) {
+		this.categoria = categoria;
+	}
+
 	
 	
 	

@@ -33,6 +33,10 @@ public class Category {
 		this.descricao = descricao;
 	}
 
+	public List<Atividade> getAtividades() {
+		return atividades;
+	}
+
 	public Integer getId() {
 		return id;
 	}

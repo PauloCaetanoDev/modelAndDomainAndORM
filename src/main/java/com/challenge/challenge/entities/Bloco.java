@@ -59,6 +59,14 @@ public class Bloco {
 	public void setFim(Instant fim) {
 		this.fim = fim;
 	}
+
+	public Atividade getAtividade() {
+		return atividade;
+	}
+
+	public void setAtividade(Atividade atividade) {
+		this.atividade = atividade;
+	}
 	
 	
 }
